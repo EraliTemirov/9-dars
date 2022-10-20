@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Registir</title>
+  </head>
+  <body>
+    <div class="asos">
+      <form action="https://echo.htmlacademy.ru/">
+        <div class="asos2">
+          <div class="label">
+            <label for="name">Name:</label>
+            <label for="email">Email:</label>
+            <label for="password">Password:</label>
+            <label for="tel">Phone_number:</label>
+            <label for="radio">Gendir:</label>
+            <label class="lab" for="til">Language:</label>
+            <label for="file">Zip Code:</label>
+            <label for="about">About:</label>
+          </div>
+          <div class="input">
+            <input type="text" id="name" placeholder="your name" />
+            <input type="email" id="email" placeholder="your email" />
+            <input class="pas" type="password" id="password" />
+            <input type="tel" id="tel" />
+            <div class="checkbox">
+              <label class="rad">Male:</label>
+              <input class="radio" type="radio" id="radio" name="red"/>
+              <label class="rad">Female:</label>
+              <input class="radio" type="radio" id="radio" name="red"/>
+              <label class="rad">Other:</label>
+              <input class="radio" type="radio" id="radio" name="red" />
+            </div>
+            <select name="language" id="til">
+              <optgroup>
+                <option disabled selected>Select language</option>
+                <option>Uzbek</option>
+                <option>Ingliz</option>
+                <option>Rus</option>
+              </optgroup>
+            </select>
+            <input class="file" type="file" id="file" />
+            <input
+              type="text"
+              id="about"
+              placeholder="Write about yourself..."
+            />
+          </div>
+        </div>
+        <button type="submit">Registir</button>
+      </form>
+    </div>
+  </body>
+</html>
